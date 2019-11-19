@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2>修改界面</h2>
+		<form action="一条龙.php" method="post">
+			用户名：<input type="text" name="name" /><br />
+			原密码：<input type="text" name="pasd" /><br />
+			新密码：<input type="text" name="newpasd"/><br />
+			再输一次新密码：<input type="text" name="newdbpasd"/><br />
+			原邮箱：<input type="text" name="email"/><br />
+			新邮箱：<input type="text" name="newemail"/><br />
+			新邮箱：<input type="text" name="newdbemail"/><br />
+			<input type="hidden" name="hide" value="2" />
+			<input type="submit" value="修改信息"/>
+			</form>
+			<h2>删除</h2>
+		<form action="一条龙.php" method="post">
+			用户名：<input type="text" name="name" /><br />
+			密码名：<input type="text" name="pasd"/><br />
+			<input type="hidden" name="hide" value="3" />
+			邮箱：<input type="text" name="email"/><br />
+			<input type="submit" value="删除"/>
+		</form>
+			<script type="text/javascript">
+				var form=document.getElementsByTagName("form");
+				var inps=form[0].getElementsByTagName("input");
+				form[0].onsubmit=e=>{
+					if(inps[2].value!=inps[3].value){
+						alert("新密码两次输入不匹配");
+						return false;
+					}
+					if(inps[5].value!=inps[6].value){
+						alert("邮箱两次输入不匹配");
+						return false;
+					}
+				}
+			</script>
+	</body>
+</html>

@@ -1,0 +1,337 @@
+a{
+	color: #333333;
+}
+.w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.top{
+	height: 160px;
+}
+.top_right_top input{
+	border: none;
+	outline: none;
+	width: 194px;
+	border-radius:7px ;
+	margin-top: 6px;
+}
+.top_right_top>a{
+	margin-top: 22px;
+}
+.sousuo{
+	width: 220px;
+	border: 1px solid #333333;
+	border-radius: 7px;
+	line-height: 23px;
+	margin-top: 17px;
+	margin-right: 37px;
+	font-size: 17px;
+}
+
+.sousuo img{
+	border-radius:7px ;
+	cursor: pointer;
+	width: 17px;
+	vertical-align: middle;
+}
+.top_right_bottom{
+	margin-top: 20px;
+}
+.sousuox li{
+	line-height: 32px;
+	display: inline-block;
+	margin-right: 96px;
+}
+.sousuox li:last-child{
+	margin-right: 0px;
+}
+.sousuox li:hover{
+	border-bottom: 2px solid #850913;
+}
+.neirong .tuwen{
+	position: relative;
+	width: 1125px;
+	height: 465px;
+	border: 1px solid #860a12;
+	margin-top: 144px;
+	margin-bottom: 170px;
+}
+.neirong .tuwen h2{
+	color: #FFFFFF;
+}
+.neirong .tuwen p{
+	color: #FFFFFF;
+}
+.tuwen_left{
+	width: 560px;
+}
+.tuwen_left img{
+	position: absolute;
+	height: 472px;
+	width: 560px;
+	left: 40px;
+	top: -38px;
+}
+.tuwen_right{
+	width: 680px;
+	background: #999999;
+	color: #FFFFFF;
+	position: absolute;
+	left: 510px;
+	top:50px;
+}
+.tuwen_right_top{
+	width: 578px;
+	border-bottom:1px solid #FFFFFF ;
+	margin-left: 102px;
+	height: 64px;
+}
+.tuwen_right_top h2{
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 18px;
+	margin-top: 34px;
+}
+.tuwen_right_top h3{
+	display: inline-block;
+	font-size: 11px;
+	margin-top: 37px;
+}
+.tuwen_right_top a{
+	font-size: 11px;
+	margin-top: 37px;
+	margin-left: 324px;
+	color: #FFFFFF;
+}
+.tuwen_right_bottom{
+	text-align: justify;
+	width: 578px;
+	height: 355px;
+	margin-left: 102px;
+}
+.tuwen_right_bottom p{
+	line-height: 20px;
+	margin-top: 26px;
+}
+.zhongbu{
+	text-align: center;
+	font-size: 24px;
+}
+.zhongbu span{
+	font-size: 14px;
+}
+hr{
+	height: 1px;
+	width: 120px;
+	background-color: #840812;
+	border: none;
+	margin: 8px auto;
+}
+ul{
+	margin-top: 60px;
+}
+.neirong li{
+	height: 520px;
+	width: 300px;
+	float: left;
+	text-align: center;
+	position: relative;
+	transition: all 1s;
+}
+.neirong li .imgtop{
+	height: 520px;
+	width: 304px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+	transform: scale(0.8);
+	transform-origin: top center;
+	transition: all 2s linear;
+}
+.neirong li .imgbottom{
+	height: 520px;
+	width: 304px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	margin: 0 auto;
+	transform: scale(0.8);
+	transform-origin: bottom center;
+	transition: all 2s linear;
+}
+.neirong li:hover .mobanxia1{
+	top: 280px;
+	z-index: 1;
+}
+.neirong li:hover .mobanxia2{
+	bottom: 176px;
+	z-index: 1;
+}
+.neirong li:hover h2{
+	color: red;
+}
+.neirong li:hover p{
+	color: #FFFFFF;
+}
+.neirong h2{
+	font-size: 18px;
+	margin-top: 32px;
+	color: #333333;
+	transition: all 2s linear;
+}
+.neirong p{
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 18px;
+	color: #666666;
+	transition: all 2s linear;
+}
+.mobanxia1{
+	height: 104px;
+	width:300px ;
+	position: absolute;
+	left: 0;
+	top: -26px;
+	transition: all 2s linear;
+}
+.mobanxia2{
+	height: 104px;
+	width:300px ;
+	position: absolute;
+	left: 0;
+	bottom: 26px;
+	transition: all 2s linear;
+}
+.bx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 522px;
+	width: 300px;
+	background: rgba(0,0,0,0);
+	transition: all 2s linear;
+}
+
+.neirong li:hover .bx{
+	height: 522px;
+	width: 300px;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+}
+.neirong li:hover img{
+	transform: scale(1);
+}
+.an{
+	display: block;
+	text-align: center;
+	margin: 48px auto 170px;
+	font-size: 11px;
+	line-height: 38px;
+	width: 151px;
+	color: #FFFFFF;
+	background-color: #a20a09;
+}
+.neirong .red{
+	height: 375px;
+	background-color: #a20a09;
+	margin-top: 0px;
+}
+.tuwen_left_xin{
+	width: 560px;
+}
+.tuwen_left_xin img{
+	position: absolute;
+	height: 398px;
+	width: 429px;
+	left: 29px;
+	top: 21px;
+}
+.tuwen_right_xin{
+	width: 680px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 394px;
+	top:0px;
+}
+.tuwen_right_xin a{
+	display: block;
+	font-size: 11px;
+	line-height: 22px;
+	width: 81px;
+	color: #a20a09;
+	font-weight: bold;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin-top: 50px;
+}
+.biaoti{
+	height: 80px;
+}
+.divbox div{
+	width: 291px;
+	height: 526px;
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+}
+.divbox h2{
+	font-size: 16px;
+	margin-top: 16px;
+	color: #333333;
+}
+.divbox h3{
+	font-size: 11px;
+	margin: 4px 0;
+	color: #666666;
+	transition: all 2s;
+}
+.divbox p{
+	line-height: 22px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #999999;
+}
+.divbox div:hover{
+	color: #FFFFFF;
+	background-color: red;
+}
+.divbox div:hover h2{
+	color: #FFFFFF;
+}
+.divbox div:hover h3{
+	color: #FFFFFF;
+}
+.divbox div:hover p{
+	color: #FFFFFF;
+}
+.divbox a{
+	margin-bottom: 22px;
+}
+footer{
+	line-height: 92px;
+	color: #FFFFFF;
+	background-color:#666666 ;
+	text-align: center;
+}
+.flyboxin{
+	width: 115px;
+	line-height: 23px;
+	font-size: 23px;
+	position: absolute;
+	left: 50%;
+	margin-left: -57.5px;
+	top: -11.5px;
+	background-color:#FFFFFF ;
+}
+.flybox{
+	width: 214px;
+	line-height: 54px;
+	font-size: 14px;
+	text-align: center;
+	background-color:#FFFFFF ;
+	border: 1px solid #850913;
+	position: absolute;
+	left: 780px;
+	top: -27.5px;
+}

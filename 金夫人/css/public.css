@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+img{
+	width: 100%;
+	vertical-align:top;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.w800{
+	width: 1200px;
+	margin: auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear:after{
+	height: 0;
+	content: " ";
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+.w1200{
+	width: 1200px;
+}

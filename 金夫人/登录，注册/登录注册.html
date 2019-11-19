@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2>注册</h2>
+		<form action="一条龙.php" method="post">
+			用户名：<input type="text" name="name" /><br />
+			密码名：<input type="text" name="pasd"/><br />
+			<input type="hidden" name="hide" value="1" />
+			邮箱：<input type="text" name="email"/><br />
+			<input type="submit" value="注册"/>
+		</form>
+		<h2>登录</h2>
+		<form action="一条龙.php" method="post">
+			用户名：<input type="text" name="name" /><br />
+			密码名：<input type="text" name="pasd"/><br />
+			<input type="hidden" name="hide" value="0" />
+			<input type="submit" value="登录"/>
+		</form>
+		<script type="text/javascript">
+				var form=document.getElementsByTagName("form");
+				var inps=document.getElementsByTagName("input");
+			</script>
+	</body>
+</html>

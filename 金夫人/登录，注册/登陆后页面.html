@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+			<h2></h2>
+		<script type="text/javascript">
+			var h2=document.getElementsByTagName("h2")[0];
+			if(decodeURIComponent(location.search.slice(1))=="成功"){
+				h2.innerHTML="登录"+decodeURIComponent(location.search.slice(1))+"5s后跳转到修改界面";
+			}else{
+				h2.innerHTML="登录"+decodeURIComponent(location.search.slice(1));
+			}
+			
+			timer=setInterval(()=>{
+				if(h2.innerHTML[4]==1){
+					location="修改界面.html";
+					timer=null;
+				}
+				k=h2.innerHTML[4]
+				k-=1;
+				h2.innerHTML="登录成功"+k+"s后跳转到修改界面";
+				console.log(k)
+			},1000);
+
+		</script>
+	</body>
+</html>
